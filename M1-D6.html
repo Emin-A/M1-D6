@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css" />
     <style>
+      * {
+      box-sizing: border-box;
+      } 
       body {
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
@@ -12,7 +15,7 @@
       .header {
         padding: 5%;
         text-align: center;
-        background: #1abc9c;
+        background:#A0E7E5;
         color: white;
       }
       .header h1 {
@@ -32,9 +35,8 @@
       tr:nth-child(even) {
         background-color: #dddddd;
       }
-      * {
-      box-sizing: border-box;
-      }
+      
+      
       /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
@@ -92,8 +94,9 @@ input[type=submit]:hover {
   </head>
   <body>
     <div class="header">
-      <h1 id="myHead">Smartphone Shop</h1>
+      <h1 id="header-title">Smartphone Shop</h1>
     </div>
+    <h2>See it for yourself =D</h2>
     <nav class="w3-bar w3-black">
       <a href="#Home" class="w3-button w3-bar-item">Home</a>
       <a href="#Smartphones" class="w3-button w3-bar-item">Smartphones</a>
@@ -202,14 +205,11 @@ input[type=submit]:hover {
       <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
 <p class="w3-medium">
 Smartphone Shop
-<p class="w3-medium">Mehmeda Skopljaka 16, Visoko</p>
+<p id="address" class="w3-medium">Mehmeda Skopljaka 16, Visoko</p>
 
 </p>
       </footer>
-      <script>
-function displayResult() {
-        document.getElementById("myHead").innerHTML = "Have a nice day!"
-      }
-      </script>
+      <script src="M1-D6.js"></script>
   </body>
+
 </html>
